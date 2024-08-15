@@ -1,0 +1,30 @@
+{
+  "name": "markdown_translate",
+  "version": "1.0.0",
+  "description": "Realtime markdown editor",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch-path=./ server.js"
+  },
+  "keywords": [
+    "markdown",
+    "html"
+  ],
+  "author": "andres_hdz",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "redis": "^4.7.0",
+    "share": "^0.7.40",
+    "sharedb": "^5.0.3",
+    "sharedb-redis": "^1.4.1",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.2"
+  }
+}
